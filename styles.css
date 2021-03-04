@@ -1,0 +1,171 @@
+html body {
+
+margin:0px;
+padding:0px;
+}
+
+body{
+  /* color: white; */
+  font-family: Montserrat;
+  background-repeat:no-repeat;
+  background: linear-gradient(to bottom,#12CBC4, #9980FA) fixed;">
+}
+
+
+
+.headerTop p{
+    margin:0;
+  margin-top: -3vw;
+  padding:0;
+
+  display: flex;
+  flex-direction: row;
+justify-content:  center;
+color:white;
+/* align-items: flex-start; */
+  /* line-height: 90%; */
+  /* margin-top: -25px; */
+  /* margin-bottom: 25px; */
+  text-align:center;
+  font-size:15vw;
+  font-weight:bold;
+  /* background-color: black; */
+}
+.headerBottomSection{
+  margin:0;
+  padding:0;
+  margin:0vw;
+  display: flex;
+  flex-direction: row;
+  justify-content:  center;
+  /* background-color: red; */
+  align-items: center;
+
+
+}
+
+.headerBottom p{
+  margin:0;
+padding:0;
+/* display: flex;
+flex-direction: row;
+justify-content:  center; */
+color:white;
+line-height: 90%;
+/* margin-top: 10vw; */
+/* margin-top: -25px; */
+/* margin-bottom: 25px; */
+text-align:center;
+font-size:15vw;
+font-weight:bold;
+/* background-color: black; */
+width:100%
+
+}
+.headerBottom p:hover{
+  color:red;
+}
+
+.profpicSection{
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+  margin-bottom: -5vw;
+}
+
+.profpic{
+  display: flex;
+  flex-direction: row-reverse;
+  /* text-align: center; */
+  justify-content: center;
+  background-color: white;
+  /* width:25%; */
+  width:15vw;
+  border-radius: 95vw 95vw;
+
+  margin-top: -5vw;
+}
+.profpic img{
+  /* text-align: center; */
+width:15vw;
+  /* text-align:center; */
+   /* margin-top: -6vw;
+   margin-bottom: -13vw; */
+}
+
+.profpic img:hover{
+opacity:0.5;
+transition: opacity 1s;
+
+}
+.introTextSection{
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  color:white;
+  font-size:2.5vw;
+  font-weight:500;
+}
+
+.introText p+p {
+font-weight:600;
+}
+
+.videoSection{
+display: flex;
+justify-content: center;
+height:25vw;
+width:100vw;
+/* background-color: red; */
+
+}
+.reel{
+  width:44.5vw;
+  /* background-color:blue; */
+}
+
+.workSection{
+  margin-top: 5vw;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.workColumn{
+  /* background-color: blue; */
+  height:25vw;
+  width:25vw;
+}
+
+.workColumn p{
+  margin:0;
+  padding:0;
+  color:white;
+  font-weight: bold;
+  font-size:2vw;
+}
+
+.workColumn p+p{
+  font-size:1vw;
+  font-weight: normal;
+}
+
+.buttonContact{
+  margin-top: 3vw;
+    margin-bottom: 3vw;
+  display: flex;
+  justify-content: center;
+font-family: Montserrat;
+onclick= window.open('mailto: ryan.kawahara@gmail.com','_blank')
+}
+
+.workSection > .workColumn{
+border-style: solid;
+
+}
+
+.workSection > .workColumn:hover{
+background-color: rgb(199, 236, 238,0.5);
+
+}
